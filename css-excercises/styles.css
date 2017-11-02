@@ -1,3 +1,10 @@
-p {
+.center{
   color: red;
+  font-size: 24px ;
 }
+.bluev{
+  color: blue;
+  font-size: 36px ;
+  text-align:center
+}
+  
