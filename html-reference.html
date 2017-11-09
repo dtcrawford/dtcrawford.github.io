@@ -3,11 +3,11 @@
 <head> <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
     <title>repl.it</title>
-    <link href="stlyes.css" rel="stylesheet" type="text/css" />
-  </head>
-      <h1> HTML Reference Page </h1>
-      <body>
-   <table>
+    <link href= "styles.css" rel="stylesheet" type= "text/css" />
+</head>
+<body>
+   <h1 class = "heading"> HTML Reference Page</h1>
+   <table class = "Referencetable">
       <tr>
         <th>Name</th>
         <th>Start Tag</th>
@@ -97,29 +97,24 @@
         <td>&lt;table&gt; &lt;tr&gt; &lt;td&gt; &lt;th&gt;</td>
         <td>&lt;/table&gt; &lt;/tr&gt; &lt;/td&gt; &lt;/th&gt;</td>
         <td>
-<table style="width:25%">
+<table class = "exampletable">
   <tr>
     <th>Firstname</th>
-    <th>Lastname</th> 
     <th>Age</th>
   </tr>
   <tr>
     <td>Dylan</td>
-    <td>Crawford</td>
     <td>14</td>
   </tr>
   <tr>
-    <td>Lamelo</td>
-    <td>Ball</td>
+    <td>Joel</td>
     <td>16</td>
   </tr>
   <tr>
     <td>Lonzo</td>
-    <td>Ball</td>
     <td>20</td>
   </tr>
 </table>
-
 </td>
       </tr>
       <tr>
@@ -133,6 +128,8 @@
 <p> One of the most important things to do when writing in HTML is to tell the file you are useing HTML. 
 <h3> Syntex </h3>
 <p>&lt;!doctype&gt; at the top of your document and &lt;html&gt; the start tag and &lt;/html&gt; the end tag.</p>
+<h4> Example </h4>
+<p> &lt;html&gt; header and body &lt;/html&gt;</p>
 <h3><a href  = "https://www.w3schools.com/html/tryit.asp?filename=tryhtml_intro"> W3 schools link</a> </h3>
     <hr>
   <h2 id = "header"> Header</h2>
@@ -152,14 +149,15 @@
 <p> Put your main Html elements inside the body;.</p>
 <h3> Syntex </h3>
 <p> Use the start tag &lt;head&gt; and end tag &lt;head&gt; </p>
-<p>This is how the code looks in a browser</p>
+<h4> Example </h4>
+<p> &lt;body&gt; body elements &lt;/body&gt; </p>
 <h3>  <a href  = https://www.w3schools.com/html/html_paragraphs.asp> W3 schools link</a>  </h3>
   <hr>
   <h2 id = "headings"> Headings</h2>
   <p> Headings are great for the begining of new pages and topics. </p>
   <h3> Syntex </h3>
    <p>Use the start tag  &lt;h&gt; and end tag &lt;/h&gt;.</p>
-   <h2> This is an example of a heading </h2>
+   <h4> This is an example of a heading </h4>
    <p> This is some more infromation on headings </p>
    <h3><a href  = "https://www.w3schools.com/html/html_headings.asp"> W3 schools link</a> </h3>
   <hr>
@@ -167,7 +165,7 @@
   <p> Put the Paragraphs in the body.</p> 
   <h3> Syntex </h3>
   <p>Use the start Tag &lt;p&gt; and the end tag &lt;/p&gt;. </p>
-  <h3> Example </h3>
+  <h4> Example </h4>
   <p> this is an exmple of a paragraph. </p>
   <p> More on paragrphs</p>
   <h3> <a href  = "https://www.w3schools.com/html/html_Paragraphs.asp"> W3 schools link</a> </h3>
@@ -176,37 +174,40 @@
   <p> When wrting in a paragraph you somtimes need to start a new line.</p>
   <h3> Syntex </h3>
   <p> Do this by using the start tag &lt;br&gt; and &lt;/br&gt;.</p>
-  <h3> Example </h3>
+  <h4> Example </h4>
   <p> This is an example <br> of text with line breaks </p>
    <h3> <a href  = "https://www.w3schools.com/html/html_Paragraphs.asp"> W3 schools link</a> </h3>
     <hr>
   <h2 id = "lines"> Lines </h2>
   <p> create lines to seperate text. Example above</p>
   <h3> Syntex </h3>
-  <p>just use the  tag &lt;hr&gt; to create a seperating line. </p>
-  <h3> Example </h3>
+  <p> just use the tag &lt;hr&gt;</p>
+  <h4> Example </h4>
    <hr> This is an example of a line
+  <p>just use the  tag &lt;hr&gt; to create a seperating line. </p>
    <h3> <a href  = "https://www.w3schools.com/html/html_blocks.asp"> W3 schools link</a> </h3>
   
   <h2 id = "comments"> Comments </h2>
   <p> Use comments to add extra information about what your code is doing. </p> 
   <h3> Syntex </h3>
   <p> &lt;!-- Write your comments here --&gt;</p>
+  <h4> Example </h4>
+  <p>  &lt;!-- Example code for comments --&gt; </p>
   <h3> <a href  = "https://www.w3schools.com/html/html_comments.asp"> W3 schools link</a> </h3>
   <hr>
   <h2 id = "links"> Links </h2>
   <p> You can use links to link websites together</p>
   <h3> Syntex </h3>
-  <p> To create a link use &lt;a href= "url"&gt; as the start tag and </a> as the end tag</p>
-  <h3> Example </h3>
+  <p> To create a link use &lt;a href= "url"&gt; as the start tag and &lt;/a&gt; as the end tag</p>
+  <h4> Example </h4>
   <p> Here is an example of a link to the W3 refrence page <a href ="https://www.w3schools.com/html/html_links.asp"> W3 schools link</a> </p>
    <hr>
   <h2 id = "images"> Images </h2>
   <p> Add images to your page for creativity </p>
   <h3> Syntex </h3>
   <p> To put an image use &lt;img src = "image" alt "text"&gt; The alternte text shows up if the image can't load </p>
-  <h3> Example </h3>
-<img src="home.png" alt="Home">
+  <h4> Example </h4>
+<img src="/images/home.png" alt="Home">
  
   <h3> <a href  = "https://www.w3schools.com/html/html_images.asp"> W3 schools link</a> </h3>
   <hr>
@@ -214,7 +215,7 @@
   
   <h3> Syntex </h3>
   <p> To create a list use the start tag &lt;ul&gt; with the end tag &lt;/ul&gt; for an unorder list and the tags &lt;ol&gt; and &lt;ol&gt; for a ordered list useing numbers or letters.</p>
-  <h3> Example </h3>
+  <h4> Example </h4>
  <ol type="1">
   <li>Coffee</li>
   <li>Tea</li>
@@ -227,8 +228,8 @@
   <h3> Syntex </h3>
   <p> Use the start tag &lt;table&gt; and end tag &lt;/table&gt; to create a table and close a table. You then use the start tag &lt;Th&gt; and end tag &lt;/th&gt; to put headings. Then use the start tag &lt;TD&gt; and end tag &lt;/TD&gt; to put info in a row and use the start tag &lt;tr&gt; and &lt;/tr&gt; To create a new row. </p>
   <h3> <a href  = "https://www.w3schools.com/html/html_tables.asp"> W3 schools link</a> </h3>
-  <h3> Example </h3>
-  <table style="width:50%">
+  <h3 class = "Examples"> Example </h3>
+  <table id = "ExampleTable">
   <tr>
     <th>Firstname</th>
     <th>Lastname</th> 
@@ -253,6 +254,5 @@
   <h3> Example </h3>
   <div> block elements </div> 
    <h3> <a href  = "https://www.w3schools.com/html/html_blocks.asp"> W3 schools link</a> </h3>
-
-  </body>
+</body>
 </html>
