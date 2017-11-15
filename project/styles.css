@@ -1,0 +1,19 @@
+.content {
+  background-color:orange;
+}
+
+.content p {
+  font-family:"Ariel", sans-serif;
+  color:black;
+}
+
+body{
+  background-color: orange;
+}
+.menu{
+  padding: 10px;
+  margin-left: 20px;
+}
+li{
+  padding: 10px;
+}
