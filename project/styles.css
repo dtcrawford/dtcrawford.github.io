@@ -12,8 +12,36 @@ body{
 }
 .menu{
   padding: 10px;
-  margin-left: 20px;
+  margin-left:40px;
 }
 li{
   padding: 10px;
+  font-size:24px;
+}
+.image{
+   height: 150px;
+   width: 60%;
+   margin: auto;
+   padding-top: 20px;
+   padding-left: 125px;
+}
+
+.paragraph{
+  font-size: 20px;
+  padding: 20px;
+}
+.cap{
+  padding-left: 125px;
+  padding-top: 10px;
+  font-size: 18px;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    font-size: 24px;
+    text-align: center;
+}
+.logo{
+  width:100%;
 }
